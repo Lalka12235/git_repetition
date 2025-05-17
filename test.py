@@ -20,7 +20,6 @@ for _ in range(0,10):
     else:
         print('Even')
 
-
 from fastapi import FastAPI #delete this row
 
 app = FastAPI()
