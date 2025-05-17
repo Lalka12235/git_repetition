@@ -19,3 +19,9 @@ for _ in range(0,10):
         print('Odd')
     else:
         print('Even')
+
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
