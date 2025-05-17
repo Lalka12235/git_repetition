@@ -19,8 +19,3 @@ for _ in range(0,10):
         print('Odd')
     else:
         print('Even')
-
-
-from fastapi import FastAPI #delete this row
-
-app = FastAPI()
