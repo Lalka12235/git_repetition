@@ -13,3 +13,8 @@ from random import randint
 
 random = randint(100,999)
 print(random)
+
+if random % 2 == 0:
+    print('Odd')
+else:
+    print('Even')
